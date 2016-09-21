@@ -17,6 +17,7 @@ for dataset=3 %Here to change the pointer to dataset begining from 1 which corre
     filename=['real data\' name{dataset} '\' name{dataset} '.txt'];
     rd=load(filename);
     [~,lastcol]=size(rd);
+	%for data which has multiple views, change "lastcol-1" to "lastcol-q" where q is the number of views
     x=rd(:,1:lastcol-1)';
     gold=rd(:,lastcol-1:end);
     filename=['real data\' name{dataset} '\gold.txt'];

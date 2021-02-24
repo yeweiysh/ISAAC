@@ -8,4 +8,4 @@ isaac is the main method. The input data is in the .txt format. Each row is an o
 And the last column is the cluster label (for multiple clustering data, the last k columns are cluster labels). 
 The output is the F1 value.
 
-If you have any questions, please contact Wei Ye (weiye@cs.ucsb.edu). Thanks for your interest.
+If you have any questions, please contact Wei Ye (yew@tongji.edu.cn). Thanks for your interest.
